@@ -4,3 +4,9 @@ c:\xampp\php\php.exe c:\webdev\composer.phar dumpautoload
 
 // iniciar o servidor web dentro da pasta demandas
 c:\xampp\php\php.exe -S localhost:8000 -t public
+
+// Se ocorrer erro de TLS na execução do composer, incluir no arquivo composer.json
+
+"config" : {
+    "disable-tls" : true
+}    
