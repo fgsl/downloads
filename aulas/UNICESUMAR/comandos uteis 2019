@@ -1,0 +1,6 @@
+
+// atualizar as dependências dentro da pasta demandas
+c:\xampp\php\php.exe c:\webdev\composer.phar dumpautoload
+
+// iniciar o servidor web dentro da pasta demandas
+c:\xampp\php\php.exe -S localhost:8000 -t public
